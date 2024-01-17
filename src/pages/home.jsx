@@ -9,7 +9,7 @@ export default function Home() {
     </div>
 
     <section className={styles.homeContent}>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi amet magni corrupti, sequi error, dolores odit sint tempore facilis deleniti quia quisquam iure nesciunt, ipsum fuga soluta dolorum debitis est!</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi amet magni corrupti, sequi error, dolores odit sint tempore facilis deleniti quia quisquam iure nesciunt, ipsum fuga soluta dolorum debitis est!</p>
     </section>
   </main>
   );
