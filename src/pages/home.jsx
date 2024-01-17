@@ -3,15 +3,15 @@ import Project from '../components/project'
 
 export default function Home() {
   return (
-    <main>
+    <main className={styles.main}>
     <div className={styles.hero}>
       <h1 className={styles.heading}>Julia Bauer</h1>
-      <h2 className={styles.heading2}>UF Student</h2>
+      <h2 className={styles.heading2}>Aspiring Writer and Web Designer</h2>
     </div>
 
-    <section className={styles.homeContent}>
+    <div className={styles.homeParagraph}>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi amet magni corrupti, sequi error, dolores odit sint tempore facilis deleniti quia quisquam iure nesciunt, ipsum fuga soluta dolorum debitis est!</p>
-    </section>
+    </div>
 
     <div>
         <Project 

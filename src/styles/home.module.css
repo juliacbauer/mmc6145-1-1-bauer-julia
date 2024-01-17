@@ -1,15 +1,23 @@
 .heading {
-  font-size: 4rem;
+  font-size: 5rem;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: beige;
+}
+
+.main {
+  background-color: slategray;
+  padding-bottom: 40px;
 }
 
 .heading2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: beige;
+  margin-top: -30px;
 } 
 
 .header {
-  background-color: darkslategrey;
+  background-color: steelblue;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 700;
   display: flex;
@@ -25,19 +33,19 @@
 }
 
 .header a:hover {
-  color: coral;
+  color: darkslateblue;
   transition: .5s;
 }
 
 .hero {
   position: relative;
-  height: 70vh;
+  height: 60vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   justify-content: flex-end;
-  background-color: brown;
-  padding: 20px;
+  background-image: url(../images/hero.jpg);
+  padding: 20px 20px 20px 100px;
 }
 
 .homeContent {
@@ -45,6 +53,18 @@
   margin: 60px 200px 60px 200px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 1.4rem;
+}
+
+.homeParagraph {
+  text-align: center;
+  margin: 40px 220px 40px 220px;
+  padding: 5px 10px 5px 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 100;
+  color: beige;
+  background-color: steelblue;
+  border-radius: 10px;
 }
 
 .infoBox {
@@ -57,4 +77,49 @@
 
 .projectBox {
   text-align: center;
+}
+
+.projectHeading {
+  font-size: 2rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+
+.footer {
+  background-color: steelblue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 5px;
+  font-size: 1.3rem;
+  text-align: center;
+  color: beige;
+  font-weight: 100;
+}
+
+@media screen and (max-width: 775px) {
+  .hero {
+    padding: 20px 20px 20px 20px;
+  }
+
+  .header {
+    padding: 20px 20px 20px 20px;
+  }
+}
+
+@media screen and (max-width: 605px) {
+  .heading {
+    font-size: 4rem;
+  }
+
+  .heading2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .heading {
+    font-size: 3.2rem;
+  }
+
+  .heading2 {
+    font-size: 1rem;
+  }
 }
