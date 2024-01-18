@@ -5,8 +5,14 @@
 }
 
 .main {
-  background-color: slategray;
+  background-color: darkgray;
   padding-bottom: 40px;
+}
+
+.mainPages {
+  background-color: darkgray;
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
 
 .heading2 {
@@ -38,27 +44,25 @@
 }
 
 .hero {
-  position: relative;
   height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: left;
   justify-content: flex-end;
-  background-image: url(../images/hero.jpg);
+  background-image: url(../images/heropic.png);
   padding: 20px 20px 20px 100px;
 }
 
 .homeContent {
   text-align: center;
-  margin: 60px 200px 60px 200px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 1.4rem;
 }
 
 .homeParagraph {
   text-align: center;
-  margin: 40px 220px 40px 220px;
-  padding: 5px 10px 5px 10px;
+  margin: 40px 250px 40px 210px;
+  padding: 5px 60px 20px 60px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 1.4rem;
   font-weight: 100;
@@ -67,22 +71,60 @@
   border-radius: 10px;
 }
 
-.infoBox {
-  background-color: crimson;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 100px;
-}
-
-.projectBox {
-  text-align: center;
-}
-
 .projectHeading {
   font-size: 2rem;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: beige;
 } 
+
+.projectBtn {
+  background-color: beige;
+  border: 0;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  transition: .5s;
+}
+
+.projectBtn:hover {
+  background-color: darkslateblue;
+  transition: .5s;
+}
+
+.projectBtnTxt {
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1rem;
+  color: steelblue;
+  transition: .5s;
+}
+
+.projectBtnTxt:hover {
+  transition: .5s;
+  color: beige;
+}
+
+.aboutParagraph {
+  text-align: left;
+}
+
+.contactBox {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 50px 30px 50px;
+}
+
+.contactLink {
+  text-decoration: none;
+  font-weight: 700;
+  transition: .5s;
+  color: beige;
+}
+
+.contactLink:hover {
+  color: darkslateblue;
+  transition: .5s;
+}
 
 .footer {
   background-color: steelblue;

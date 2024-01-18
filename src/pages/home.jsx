@@ -4,16 +4,18 @@ import Project from '../components/project'
 export default function Home() {
   return (
     <main className={styles.main}>
-    <div className={styles.hero}>
-      <h1 className={styles.heading}>Julia Bauer</h1>
-      <h2 className={styles.heading2}>Aspiring Writer and Web Designer</h2>
-    </div>
+      <div className={styles.hero}>
+        <h1 className={styles.heading}>Julia Bauer</h1>
+        <h2 className={styles.heading2}>Aspiring Writer and Web Designer</h2>
+      </div>
 
-    <div className={styles.homeParagraph}>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi amet magni corrupti, sequi error, dolores odit sint tempore facilis deleniti quia quisquam iure nesciunt, ipsum fuga soluta dolorum debitis est!</p>
-    </div>
+      <div className={styles.homeParagraph}>
+        <h2>Welcome to my portfolio!</h2>
+        <p>Hello! My name is Julia Bauer, and I am an aspiring writer and web designer. I am a A University of Florida graduate student in the Master's in Mass Communication with a concentration in Web Design program. I graduated from UF with a B.S. in journalism in 2023. If you want to learn more about me, visit the about page! Below you can find some of my web development work from a few of my master's courses.</p>
+        <p>And enjoy the photoshopped astronaut in space hero image I made!</p>
+      </div>
 
-    <div>
+      <div>
         <Project 
           projectName='"The Office" Website' 
           projectInfo="This is a group project I worked on during my course on HTML and CSS. It is a multi-page website about one of our favorite shows, The Office."
@@ -25,6 +27,6 @@ export default function Home() {
           websiteLink="https://renabmew.github.io/com6338-10-10-bauer-brown-colver/" 
         />
       </div>
-  </main>
+    </main>
   );
 }
