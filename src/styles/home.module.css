@@ -49,7 +49,8 @@
   flex-direction: column;
   align-items: left;
   justify-content: flex-end;
-  background-image: url(../images/heropic.png);
+  background-image: url(../images/herotest.png);
+  background-size: cover;
   padding: 20px 20px 20px 100px;
 }
 
@@ -136,6 +137,26 @@
   font-weight: 100;
 }
 
+@media screen and (max-width: 1200px) {
+  .homeParagraph {
+    margin: 40px 100px 40px 100px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .contactBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .meImg {
+    max-width: 200px;
+  }
+}
+
 @media screen and (max-width: 775px) {
   .hero {
     padding: 20px 20px 20px 20px;
@@ -143,6 +164,11 @@
 
   .header {
     padding: 20px 20px 20px 20px;
+  }
+
+  .homeParagraph {
+    font-size: 1.1rem;
+    margin: 40px 80px 40px 80px;
   }
 }
 
@@ -154,6 +180,14 @@
   .heading2 {
     font-size: 1.5rem;
   }
+
+  .projectHeading {
+    font-size: 1.5rem;
+  } 
+
+  .homeParagraph {
+    padding: 5px 20px 20px 20px;
+  }
 }
 
 @media screen and (max-width: 465px) {
@@ -163,5 +197,13 @@
 
   .heading2 {
     font-size: 1rem;
+  }
+
+  .projectHeading {
+    font-size: 1rem;
+  } 
+
+  .homeParagraph {
+    margin: 40px;
   }
 }

@@ -12,7 +12,6 @@ export default function Home() {
       <div className={styles.homeParagraph}>
         <h2>Welcome to my portfolio!</h2>
         <p>Hello! My name is Julia Bauer, and I am an aspiring writer and web designer. I am a A University of Florida graduate student in the Master's in Mass Communication with a concentration in Web Design program. I graduated from UF with a B.S. in journalism in 2023. If you want to learn more about me, visit the about page! Below you can find some of my web development work from a few of my master's courses.</p>
-        <p>And enjoy the photoshopped astronaut in space hero image I made!</p>
       </div>
 
       <div>
